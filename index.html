@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IYER'S KITCHEN</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script>
+	$(document).ready(function () {
+
+	  $('.first-button').on('click', function () {
+
+	    $('.animated-icon1').toggleClass('open');
+	  });
+	  $('.second-button').on('click', function () {
+
+	    $('.animated-icon2').toggleClass('open');
+	  });
+	  $('.third-button').on('click', function () {
+
+	    $('.animated-icon3').toggleClass('open');
+	  });
+	});		
+
+	</script>
+</head>
+<body>
+
+	<nav role="navigation">
+	  <div id="menuToggle">
+	    <!--
+	    A fake / hidden checkbox is used as click reciever,
+	    so you can use the :checked selector on it.
+	    -->
+	    <input type="checkbox" />
+	    
+	    <!--
+	    Some spans to act as a hamburger.
+	    
+	    They are acting like a real hamburger,
+	    not that McDonalds stuff.
+	    -->
+	    <span></span>
+	    <span></span>
+	    <span></span>
+	    
+	    <!--
+	    Too bad the menu has to be inside of the button
+	    but hey, it's pure CSS magic.
+	    -->
+	    <ul id="menu">
+	      <a href="index.html"><li>Home</li></a>
+	      <a href="#"><li>About</li></a>
+	      <a href="https://mailchi.mp/7f954c48ef6c/cookhouse-subscribers"><li>Contact Us</li></a>
+	   
+	    </ul>
+	  </div>
+	</nav>
+		
+
+	<h1> Welcome To IYER'S COOKHOUSE... </h1>
+	<!--Navbar-->
+
+	<div class="container">
+
+		
+
+		
+		<figure>
+  			<img src="https://t4.ftcdn.net/jpg/03/63/10/41/240_F_363104137_lCvf0RUhh63XFo5MfWf6bf4wbzzP3YZf.jpg">
+  			<div class="overlay">Thin pancake originating from South India, made from a fermented batter predominantly consisting of lentils and rice.</div>
+			<figcaption>Sada Dosa</figcaption>
+
+			<!-- <p><button>Add to Orders</button></p> -->
+		</figure>
+		
+		<figure>
+  			<img src="https://t4.ftcdn.net/jpg/03/63/10/49/240_F_363104960_UKXPAyJ01bv87iI9Ata3sB6GuL8OS0dn.jpg">
+  			<div class="overlay">Doughnut shaped fritters made with black gram, herbs, coconut and spices.</div>
+  			<figcaption>Medu Vada</figcaption>
+		</figure>
+
+		<figure>
+  			<img src="https://t4.ftcdn.net/jpg/04/09/19/09/240_F_409190952_5uWRl8vN70sgtqWPtEETsFg4J8LRqQNm.jpg">
+  			<div class="overlay">Flavorful South Indian breakfast dish made from rava(Cream of wheat).It involves cooking roasted rava in water that has been flavored by ghee (or oil), cashews, urad dal (lentils), chana dal (husked chickpeas), onion, ginger and additional herbs and spices.</div>
+  			<figcaption>Rava Upma</figcaption>
+		</figure>
+
+		<figure>
+  			<img src="https://t4.ftcdn.net/jpg/01/54/51/15/240_F_154511558_JpKgizAwuLV07cOfsTn9GR4dTla6ztz9.jpg">
+  			<div class="overlay">Idlis spiced with cumin, pepper and ginger powder steamed in a bamboo basket which is lined with the leaves of the bauhinia plant.</div>
+  			<figcaption>Kanchipuram Idli</figcaption>
+		</figure>
+
+		<figure>
+  			<img src="https://cdn.tasteatlas.com/images/dishes/a4a2780dee054e0c9e764bb7ad1ae820.jpg">
+  			<div class="overlay">Sweet rice dish cooked in a clay pot over an open fire with rice, Mung Bean, Sugar, Cashews.</div>
+			<figcaption>Pongal</figcaption>
+		</figure>
+
+		<figure>
+  			<img src="https://cdn.tasteatlas.com/Images/Dishes/7de2a201d16e44b18e983b2e402b3737.jpg">
+  			<div class="overlay">Popular Indian bowl-shaped pancake made from a batter of rice flour and coconut milk served with spicy condiments such as coconut milk curry.</div>
+			<figcaption>Appam</figcaption>
+		</figure>
+
+		<figure>
+  			<img src="https://i.ndtvimg.com/i/2017-08/payasam_650x400_71504098136.jpg">
+  			<div class="overlay">A sweet end to a perfect meal. A delicious rice and milk pudding with cashews and raisins.</div>
+			<figcaption>Paal Payasam</figcaption>
+		</figure>
+
+		<figure>
+  			<img src="https://www.kannammacooks.com/wp-content/uploads/kuzhi-paniyaram.jpg">
+  			<div class="overlay">Truly delicious,Savory,spiced,crisp and soft Ball shaped dumplings made with fermented urad dal and rice batter</div>
+			<figcaption>Kuzhi Paniyaram</figcaption>
+		</figure>		
+	</div>
+
+</body>
+</html>
